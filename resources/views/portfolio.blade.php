@@ -22,7 +22,7 @@
                         <img src="assets/img/about/coverr.svg" class="setup_img" alt="Setup Image">
                     </figure>
                     <div class="article-body">
-                        <h2><a href="https://drive.google.com/file/d/1aTJB21D7lzj_4bjPlfNle6iXYXXeXBn3/view?usp=sharing" target="_blank" >SETUP</a></h2>
+                        <h2><a href="https://drive.google.com/file/d/1aTJB21D7lzj_4bjPlfNle6iXYXXeXBn3/view?usp=sharing" target="_blank" >VIEWS</a></h2>
                         <p class="info">Installation of Laravel along with its dependencies. <br> </p>
                         <p class="info2">By doing that, I learned how to set up Laravel, manage dependencies, and create views and routes. I also documented key directories and my progress in a PDF.</p>
                     </div>

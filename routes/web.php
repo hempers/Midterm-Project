@@ -7,17 +7,25 @@ use App\Http\Middleware\LogRequests;
 
 Route::middleware([LogRequests::class])->group(function () {
     Route::get('/', function () {
-        return view('welcome');
+        return view('portfolio');
     })->name('home');
 
-    Route::get('/about', function () {
-        return view('about');
-    })->name('about');
+    Route::get('/lab1', function () {
+        return view('lab1');
+    })->name('lab1');
 
-    Route::get('/portfolio', function () {
-        return view('portfolio');
-    })->name('portfolio');
+    Route::get('/lab2', function () {
+        return view('lab2');
+    })->name('lab2');
 
+    Route::get('/lab3', function () {
+        return view('lab3');
+    })->name('lab3');
+
+    Route::get('/lab4', function () {
+        return view('lab4');
+    })->name('lab4');
+    
     Route::get('/restricted-dashboard', function () {
         return "Access Restricted!";
     });

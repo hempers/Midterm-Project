@@ -14,7 +14,7 @@
 
 <div id="home" class="first_page">
 	<div class="wrapper">
-		<div class="header header_home4">MIDDLEWARE</div>
+		<div class="header header_home4"><a href="https://github.com/hempers/Midterm-Project" target="_blank">MIDDLEWARE</a></div>
 		<p class="desc">This task focuses on creating and registering middleware for age validation and logging HTTP requests in Laravel, with an emphasis on global application and parameter customization.</p>
 		<p class="summary">SUMMARY:  <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Through this task, I learned how to create and register new middleware in Laravel, specifically the CheckAge and LogRequests middleware. I understood how to implement logic in the CheckAge middleware to check user age and redirect them accordingly if they don’t meet the criteria. I also gained experience in logging HTTP request details, including the URL, method, and timestamp, to a file. By applying the middleware globally, I simplified the registration process, making it easier to enforce age restrictions across multiple routes. Additionally, I learned how to modify middleware to accept parameters, which enhanced my understanding of middleware functionality in Laravel.</p>
 		</div>

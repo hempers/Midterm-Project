@@ -5,7 +5,7 @@ body {
  padding: 0;
  font-size: 1.2rem;
  line-height: 1.6rem;
- background-color: rgba(22, 19, 19, 0.89);
+ background-color: rgba(255, 255, 255, 0.89);
 }
 
 
@@ -13,29 +13,31 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px; 
-  background-color: #0090a3;
+  padding: 5px; 
+  background: linear-gradient(to right, #2fcfff,#2196c4,#013355 );
   color: #e4e4e4;
   font-family: "Figtree", sans-serif;
 }
 
 .text {
   padding-left: 20px; /* Adjusted */
-  color: #c5c5c5;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 33px;
 }
 
 .text:hover { /* Adjusted */
   color: black;
 }
 
-.logo h1 {
-  margin: 0;
-}
-
 nav ul {
   margin-left: 0; /* Adjusted for proper alignment */
   list-style: none;
   padding: 0;
+  margin-top: 2.5%;
+  margin-left: -8%;
   display: flex;
   gap: 40px;
 }
@@ -45,13 +47,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #dddddd;
+  color: #ffffff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 nav ul li a:hover {
-  color: black;
+  color: rgb(34, 5, 80);
 }
 
 .wrapper {
@@ -65,9 +67,9 @@ nav ul li a:hover {
   width: 800px;
   height: 450px;
   background: hsl(0, 0%, 100%);
-  box-shadow: 1px 1px 25px 3px rgba(40, 97, 255, 0.3); 
+  box-shadow: 2px 2px 0px 0px rgba(161, 159, 159, 0.3); 
   font-family: 'Staatliches', cursive;
-  margin-top: -100px;
+  margin-top: -120px;
   padding: 0;
   box-sizing: border-box;
   margin-left: 40%;
@@ -86,12 +88,18 @@ nav ul li a:hover {
     margin-left: 30px;
 }
 
+.header_home a {
+  color: rgb(26, 26, 26);
+}
+
 .header_home1{
   margin-left: 28px;
+  color: rgb(14, 14, 14);
 }
 
 .header_home4{
   margin-left: -5px;
+  color: rgb(255, 40, 40);
 }
 
 
@@ -102,7 +110,7 @@ nav ul li a:hover {
   left: 0;
   width: 100%;
   height: 20%;
-  background: black;
+  background: rgb(44, 44, 44);
 }
 
 .content {
@@ -111,19 +119,6 @@ nav ul li a:hover {
   width: 40%;
   top: 37%;
   left: 7%;
-}
-
-.image {
-  position: absolute;
-  top: 0px;
-  right: -2px;
-  width: 50%;
-  height: 100%;
-  background-image: url('assets/img/about/aq.svg');
-  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: grayscale(100%) brightness(80%) contrast(120%);
 }
 
 .desc {

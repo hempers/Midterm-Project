@@ -6,7 +6,6 @@ body {
   font-size: 1.2rem;
   line-height: 1.6rem;
   min-height: 100vh;
-  overflow: hidden;
 }
 
 html {
@@ -14,20 +13,19 @@ html {
   background: hsl(0, 0%, 95%);
 }
 
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px; 
+  padding: 5px 35px; /* Added more padding for space */
   margin-top: -48px;
-  background: linear-gradient(to right, #2fcfff,#2196c4,#013355 );
+  background: linear-gradient(to right, #2fcfff, #2196c4, #013355);
   color: #e4e4e4;
   font-family: "Figtree", sans-serif;
 }
 
-.header_home{
-  margin-top: 70px;
+.header_home {
+  margin-top: 50px;
   font-size: 2.9rem;
   color: #2e2c2c;
   font-family: "Bebas Neue", cursive;
@@ -38,21 +36,14 @@ header {
   padding-left: 20px; /* Adjusted */
   color: #ffffff;
   margin-top: 10px;
-  margin-left: 40px;
   font-family: "Bebas Neue", cursive;
   font-size: 33px;
 }
 
-.text:hover { /* Adjusted */
-  color: black;
-}
-
 nav ul {
-  margin-left: 0; /* Adjusted for proper alignment */
+  margin: 0; /* Reset margin */
   list-style: none;
   padding: 0;
-  margin-top: 2.5%;
-  margin-left: -8%;
   display: flex;
   gap: 40px;
 }
@@ -71,15 +62,13 @@ nav ul li a:hover {
   color: rgb(34, 5, 80);
 }
 
-
 article {
   border-radius: 5px;
   background: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   transition: transform 0.4s ease-in-out;
-  height: 90%;  /* Make article full height of its container */
+  height: 90%; /* Make article full height of its container */
   width: 100%;
-  margin-top: -14px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -96,14 +85,13 @@ article h2 {
   letter-spacing: 0.06em;
   color: #151718;
   transition: color 0.3s ease-out;
-  margin-top: -10px;
   font-weight: bolder;
 }
 
-.info{
-    margin-top: -10px;
-    font-family: "Figtree", sans-serif;
-    font-size: 15px;
+.info {
+  margin-top: -10px;
+  font-family: "Figtree", sans-serif;
+  font-size: 15px;
 }
 
 figure {
@@ -134,15 +122,13 @@ article:hover img {
 }
 
 .article-body a {
-    text-decoration: none; /* No underline */
-    color: #002335;
+  text-decoration: none; /* No underline */
+  color: #002335;
 }
 
 .article-body a:hover {
-    color: #000000; /* Change to desired hover color */
+  color: #000000; /* Change to desired hover color */
 }
-
-
 
 @media screen and (max-width: 960px) {
   .article-body p {

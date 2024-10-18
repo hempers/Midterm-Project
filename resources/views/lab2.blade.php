@@ -8,7 +8,8 @@
 	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Pacifico&amp;family=Quicksand&amp;display=swap'>
 	<link rel="stylesheet" href="{{ url('styles/styles.css') }}">
-	@endsection
+	<link rel="icon" href="https://laravel.com/img/logomark.min.svg" type="image/svg+xml">
+@endsection
 
 @section('content')
 
@@ -16,7 +17,7 @@
 	<div class="wrapper">
 		<div class="header header_home"><a href="https://github.com/hempers/Midterm-Project" target="_blank">ROUTES</a></div>
 		<p class="desc">This lab focuses on understanding <br> basic Laravel routing and Blade templating</p>
-		<p class="summary">SUMMARY:  <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this session, we explored the process of creating routes in Laravel and how to link them to specific views using Blade templates. We covered how to define routes in the `web.php` file, enabling users to access different pages of a web application by specifying appropriate URLs. Additionally, we learned how to return views using Laravel’s Blade templating engine, which allows for dynamic content rendering and efficient layout management. This knowledge provides a foundation for building more complex web applications, with clear navigation and organized front-end presentation through Blade templates.</p>
+		<p class="summary">WHAT I LEARNED:  <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this session, we explored the process of creating routes in Laravel and how to link them to specific views using Blade templates. We covered how to define routes in the `web.php` file, enabling users to access different pages of a web application by specifying appropriate URLs. Additionally, we learned how to return views using Laravel’s Blade templating engine, which allows for dynamic content rendering and efficient layout management. This knowledge provides a foundation for building more complex web applications, with clear navigation and organized front-end presentation through Blade templates.</p>
 		</div>
 	  </div> 
   </div>

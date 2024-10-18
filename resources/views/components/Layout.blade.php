@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @yield('styles')
 </head>
+
 <body>
     <header>
         <div class="logo">
                 <h1 class="text">Project</h1>
+                <link rel="icon" href="https://laravel.com/img/logomark.min.svg" type="image/svg+xml">
             </a>
         </div>
         <nav class="logo">

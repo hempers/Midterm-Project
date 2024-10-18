@@ -73,9 +73,8 @@ nav ul li a:hover {
 
 .header {
   position: absolute;
-  width: max-content;
   font-size: 2.875rem;
-  white-space: nowrap;
+  text-decoration: none;
   top: 13%;
   left: 40%;
 }
@@ -88,24 +87,22 @@ nav ul li a:hover {
   color: rgb(26, 26, 26);
 }
 
-.header_home1{
-  margin-left: 28px;
-  color: rgb(14, 14, 14);
+.header_home1 a{
+  margin-left: 20px;
+  color: rgb(26, 26, 26);
 }
 
-.header_home4{
+.header_home4 a{
   margin-left: -5px;
-  color: rgb(255, 40, 40);
+  color: rgb(26, 26, 26);
 }
-
 
 .header::after {
-  content:'';
+  content: '';
   position: absolute;
-  bottom: -10px;
+  bottom: -20px; /* Push it further down */
   left: 0;
   width: 100%;
-  height: 20%;
   background: rgb(44, 44, 44);
 }
 
@@ -128,5 +125,5 @@ nav ul li a:hover {
   text-align: justify;
   margin-top: -9%;
   padding: 55px;
-  font-size: 1.04rem;
+  font-size: 1.02rem;
 }

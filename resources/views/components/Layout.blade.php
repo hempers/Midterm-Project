@@ -11,16 +11,16 @@
     <header>
         <div class="logo">
             <a href="{{ url('/') }}" style="text-decoration: none;">
-                <h1 class="text"></h1>
+                <h1 class="text">Project</h1>
             </a>
         </div>
         <nav class="logo">
             <ul>
                 <li><a href="{{ url('/') }}" style="text-decoration: none;">Portfolio</a></li>
-                <li><a href="{{ url('/lab3') }}" style="text-decoration: none;">Layouts</a></li>
-                <li><a href="{{ url('/lab2') }}" style="text-decoration: none;">Routes</a></li>
-                <li><a href="{{ url('/lab4') }}" style="text-decoration: none;">Middleware</a></li>
                 <li><a href="{{ url('/lab1') }}" style="text-decoration: none;">Views</a></li>
+                <li><a href="{{ url('/lab2') }}" style="text-decoration: none;">Routes</a></li>
+                <li><a href="{{ url('/lab3') }}" style="text-decoration: none;">Layouts</a></li>
+                <li><a href="{{ url('/lab4') }}" style="text-decoration: none;">Middleware</a></li>
             </ul>
         </nav>
     </header>

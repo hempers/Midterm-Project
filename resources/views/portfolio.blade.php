@@ -22,10 +22,9 @@
                         <img src="assets/img/about/coverr.svg" class="setup_img" alt="Setup Image">
                     </figure>
                     <div class="article-body">
-                        <h2><a href="https://drive.google.com/file/d/1aTJB21D7lzj_4bjPlfNle6iXYXXeXBn3/view?usp=sharing" target="_blank" >VIEWS</a></h2>
+                        <h2><a href="/lab1" target="_blank" >VIEWS</a></h2>
                         <p class="info">Installation of Laravel along with its dependencies. <br> </p>
-                        <p class="info2">By doing that, I learned how to set up Laravel, manage dependencies, and create views and routes. I also documented key directories and my progress in a PDF.</p>
-                    </div>
+                	</div>
                 </article>
             </div>
 
@@ -35,9 +34,8 @@
                         <img src="assets/img/about/route.svg" class="img-fluid" alt="Routes Image">
                     </figure>
                     <div class="article-body">
-                        <h2><a href="https://drive.google.com/file/d/1n8pny1Auv0kYWVmluGINRwM2bitUL9Sw/view?usp=drive_link" target="_blank">ROUTES</a></h2>
-                        <p class="info">Route creation for the homepage view.</p>
-                        <p class="info2">By doing this, I learned to set up basic routes, create views, and manage required and optional parameters while validating usernames to be alphabetic.</p>
+                        <h2><a href="lab2" target="_blank">ROUTES</a></h2>
+                        <p class="info">Route creation for different blade views and laravel templating.</p>
                     </div>
                 </article>
             </div>
@@ -48,10 +46,9 @@
                         <img src="assets/img/about/layout.svg" class="img-fluid" alt="Layout Image">
                     </figure>
                     <div class="article-body">
-                        <h2><a href="https://drive.google.com/file/d/1TjpeQnCZybv6RafsFAraYIrRJLYGqoOs/view?usp=drive_link" target="_blank">LAYOUT</a></h2>
+                        <h2><a href="lab3" target="_blank">LAYOUT</a></h2>
                         <p class="info">Creating a layout file along with its components</p>
-                        <p class="info2">By doing this, I learned to create a layout file in the "Components" folder, extend it in multiple views, and update routes to return those views.</p>
-                    </div>
+                	</div>
                 </article>
             </div>
 
@@ -61,8 +58,8 @@
                         <img src="assets/img/about/coverrr.svg" class="img-fluid" alt="Middleware Image">
                     </figure>
                     <div class="article-body">
-                        <h2><a href="https://drive.google.com/file/d/1kLWNHQvif0M67bkCVNtZedM3buvILjZb/view?usp=drive_link" target="_blank">MIDDLEWARE</a></h2>
-                        <p class="info">Creating and registering middleware</p>
+                        <h2><a href="lab4" target="_blank">MIDDLEWARE</a></h2>
+                        <p class="info">Creating and registering middleware globally</p>
                     </div>
                 </article>
             </div>

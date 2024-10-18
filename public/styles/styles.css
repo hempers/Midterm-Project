@@ -3,16 +3,11 @@
 body {
  margin: 0;
  padding: 0;
- font-family: "Figtree", sans-serif;
  font-size: 1.2rem;
  line-height: 1.6rem;
  background-color: rgba(22, 19, 19, 0.89);
 }
 
-a {
-  color: black;
-  text-decoration: none;
-}
 
 header {
   display: flex;
@@ -21,6 +16,7 @@ header {
   padding: 20px; 
   background-color: #0090a3;
   color: #e4e4e4;
+  font-family: "Figtree", sans-serif;
 }
 
 .text {

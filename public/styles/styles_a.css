@@ -16,49 +16,54 @@ html {
 }
 
 header {
-  font-family: "Figtree", sans-serif;
+  display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 13px; 
+  margin-top: -4%;
   background-color: #0090a3;
-  padding:6px;
-  width: 100vw; 
-  box-sizing: border-box;
-  margin-top: -92.8px;
-}
-
-.header_home{
-    font-size: 3rem;
-    font-weight: bolder;
-    letter-spacing: .3rem;
-    margin-top: -20px;
+  color: #e4e4e4;
+  font-family: "Figtree", sans-serif;
 }
 
 .text {
   font-family: "Bebas Neue", cursive;
-  margin-top: 60px;
-  color: #d6d3d3;
+  padding-left: 20px; /* Adjusted */
+  color: #c5c5c5; 
+  margin-top: 5%;
 }
 
+.text:hover { /* Adjusted */
+  color: black;
+}
 
+.logo h1 {
+  margin: 0;
+}
 
 nav ul {
+  margin-left: 0; /* Adjusted for proper alignment */
   list-style: none;
-  margin-left: 77%;
   padding: 0;
+  margin-top: 5%;
   display: flex;
-  gap: 45px;
-  margin-top: 30px;
+  gap: 40px;
 }
-    
+
+nav ul li {
+  margin: 0;
+}
+
 nav ul li a {
-  color: #fff;
+  color: #dddddd;
   text-decoration: none;
   font-size: 16px;
 }
-    
+
 nav ul li a:hover {
-  color: rgb(0, 19, 82);
+  color: black;
 }
+
 
 article {
   border-radius: 16px;
@@ -92,15 +97,6 @@ article h2 {
     margin-top: -10px;
     font-family: "Figtree", sans-serif;
     font-size: 15px;
-    font-weight: bold;
-}
-
-.info2{
-  margin-top: -10px;
-  font-family: "Figtree", sans-serif;
-  font-size: 12px;
-  font-style: italic;
-  padding: 8px;
 }
 
 figure {

@@ -130,6 +130,18 @@ article:hover img {
   color: #000000; /* Change to desired hover color */
 }
 
+footer {
+  color: rgb(12, 12, 12);          /* Black text color */
+  padding: 20px;        /* Padding for spacing */
+  text-align: center;   /* Center text */
+}
+
+.footer-content {
+  max-width: 1200px;    /* Max width for content */
+  margin: 0 auto;       /* Center the footer content */
+}
+
+
 @media screen and (max-width: 960px) {
   .article-body p {
     display: none;

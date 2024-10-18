@@ -114,6 +114,19 @@ nav ul li a:hover {
   left: 7%;
 }
 
+footer {
+  color: rgb(12, 12, 12);          /* Black text color */
+  padding: 20px;        /* Padding for spacing */
+  text-align: center;   /* Center text */
+  margin-top: 36.8%;
+  font-size: 1rem;
+}
+
+.footer-content {
+  max-width: 1200px;    /* Max width for content */
+  margin: 0 auto; 
+}
+
 .desc {
   text-align: center;
   padding: 10px;

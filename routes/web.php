@@ -10,13 +10,13 @@ Route::middleware([LogRequests::class])->group(function () {
         return view('welcome');
     })->name('home');
 
-    Route::get('/contactus', function () {
-        return view('contactus');
-    })->name('contact');
-
     Route::get('/about', function () {
         return view('about');
     })->name('about');
+
+    Route::get('/portfolio', function () {
+        return view('portfolio');
+    })->name('portfolio');
 
     Route::get('/restricted-dashboard', function () {
         return "Access Restricted!";

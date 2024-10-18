@@ -17,8 +17,8 @@
         <nav class="logo">
             <ul>
                 <li><a href="{{ url('/') }}" style="text-decoration: none;">Home</a></li>
-                <li><a href="{{ url('/about') }}" style="text-decoration: none;">About</a></li>
-                <li><a href="{{ url('/contactus') }}" style="text-decoration: none;">Contact Us</a></li>
+                <li><a href="{{ url('/about') }}" style="text-decoration: none;">Portfolio</a></li>
+                <li><a href="{{ url('/contactus') }}" style="text-decoration: none;">About Me</a></li>
             </ul>
         </nav>
     </header>

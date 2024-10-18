@@ -28,10 +28,6 @@ header {
   font-size: 33px;
 }
 
-.text:hover { /* Adjusted */
-  color: black;
-}
-
 nav ul {
   margin-left: 0; /* Adjusted for proper alignment */
   list-style: none;

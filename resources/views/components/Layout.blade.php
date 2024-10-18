@@ -10,7 +10,6 @@
 <body>
     <header>
         <div class="logo">
-            <a href="{{ url('/') }}" style="text-decoration: none;">
                 <h1 class="text">Project</h1>
             </a>
         </div>

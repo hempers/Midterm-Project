@@ -3,7 +3,6 @@
 
 @section('styles')
     <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Figtree:wght@300;600&amp;display=swap'>
-    
     <link rel="stylesheet" href="{{ asset('styles/styles_a.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 @endsection
